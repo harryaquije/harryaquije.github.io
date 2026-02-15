@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Harry Aquije Ballon">
-<meta name="dcterms.date" content="2025-12-17">
+<meta name="dcterms.date" content="2025-02-15">
 
-<title>What Does Green Access Look Like in Your City? - Part 2 – Harry Aquije Ballon</title>
+<title>¿Qué tan verde es tu ciudad? – Parte 2 – Harry Aquije Ballon</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -184,13 +184,12 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">What Does Green Access Look Like in Your City? - Part 2</h1>
+      <h1 class="title">¿Qué tan verde es tu ciudad? – Parte 2</h1>
             <div class="quarto-categories">
-                  <div class="quarto-category">geocomputation</div>
-                  <div class="quarto-category">urban-policy</div>
+                  <div class="quarto-category">urban policy</div>
                   <div class="quarto-category">green</div>
-                  <div class="quarto-category">sustainability</div>
-                  <div class="quarto-category">R</div>
+                  <div class="quarto-category">sutainability</div>
+                  <div class="quarto-category">Data Science</div>
               </div>
     </div>
   </div>
@@ -206,7 +205,7 @@ window.Quarto = {
           <div>
         <div class="quarto-title-meta-heading">Event Date</div>
         <div class="quarto-title-meta-contents">
-          <p class="date">2025-12-17</p>
+          <p class="date">2025-02-15</p>
         </div>
       </div>
       </div>
@@ -214,24 +213,22 @@ window.Quarto = {
 
 
 <hr>
-<section id="another-tale-of-two-cities-when-green-isnt-for-people-seville-and-arequipa" class="level2">
-<h2 class="anchored" data-anchor-id="another-tale-of-two-cities-when-green-isnt-for-people-seville-and-arequipa">Another Tale of Two Cities: When Green Isn’t for People: Seville and Arequipa</h2>
-<p>In the first entry of this series, I compared green space access in London and Lima, highlighting how historical planning decisions and institutional capacity shape urban access to nature. In this second instalment, I turn to two very different cities: Seville, Spain, and Arequipa, Peru.</p>
-<p>At first glance, both cities appear relatively “green” when viewed from above. Yet a closer look reveals a crucial distinction: not all green space is green space for people. Fields, farms, and cultivated land may dominate the urban landscape in some cities, while accessible parks and recreational areas remain scarce.</p>
-<p>This article explores that distinction by quantifying and mapping green areas in Seville and Arequipa, with particular attention to who green space is actually for.</p>
-</section>
-<section id="why-seville-and-arequipa" class="level2">
-<h2 class="anchored" data-anchor-id="why-seville-and-arequipa">Why Seville and Arequipa?</h2>
-<p>Seville and Arequipa are not obvious twins. They differ in income levels, climate, and institutional context. Yet they share several characteristics that make comparison meaningful:</p>
+<section id="otro-estudio-de-comparación-de-dos-ciudades-cuando-los-espacios-verdes-no-son-necesariamente-para-la-gente-arequipa-y-sevilla" class="level2">
+<h2 class="anchored" data-anchor-id="otro-estudio-de-comparación-de-dos-ciudades-cuando-los-espacios-verdes-no-son-necesariamente-para-la-gente-arequipa-y-sevilla">Otro estudio de comparación de dos ciudades: Cuando los espacios verdes no son necesariamente para la gente – Arequipa y Sevilla</h2>
+<p>En el primer artículo de esta serie comparé los espacios verdes en Londres y Lima, resaltando como decisiones de planeamiento estratégico y capacidad institucional forjaron el acceso urbano a espacios verdes en ambas capitales. En este segundo artículo, me ocupo de dos ciudades que a primera vista no son fácilmente comparables: Sevilla, España y Arequipa, Perú.</p>
+<p>Vistas desde el cielo ambas ciudades parecen relativamente “verdes”. Sin embargo, una mirada más cercana, refleja una clara distinción: no todo el espacio verde es para la gente. Campos, granjas y tierras agrícolas pueden dominar el espacio urbano en algunas ciudades; mientras que, parques accesibles y áreas recreacionales se mantienen escasos.</p>
+<p>Este artículo explora esta distinción al cuantificar y mapear las áreas verdes en Sevilla y Arequipa, poniendo énfasis al uso que se les da.</p>
+<p>##Por qué comparar Arequipa y Sevilla</p>
+<p>La comparación no es obvia ya que existen diferencias en término de ingresos, actividades económicas, condiciones geográficas e instituciones. Aun así, comparten características que hacen que la comparación sea valiosa:</p>
 <ul>
-<li>Both are historical regional capitals, not national capitals</li>
-<li>Both have compact urban cores surrounded by peri-urban land</li>
-<li>Both experience hot climates, where green space plays a critical role in thermal comfort and public health</li>
-<li>Both are cities where urban expansion has increasingly collided with environmental constraints</li>
+<li>Son capitales regionales históricas, no capitales nacionales</li>
+<li>Poseen centros urbanos compactos rodeados por tierras periurbanas</li>
+<li>Experimentan climas cálidos en el cual el espacio verde juega un rol crucial como termorregulador impactando a la salud pública</li>
+<li>En ambas ciudades la expansión urbana se ha visto restringida por consideraciones medioambientales</li>
 </ul>
-<p>Most importantly, they illustrate two very different models of how “green” land is distributed within metropolitan boundaries. Moreover, as someone born and raised in Arequipa, this analysis reflects a personal interest in better understanding access to green areas in the city. Table 1 presents the main demographic characteristics.</p>
+<p>Más importante aún, ellas ilustran dos modelos distintos de gestión de áreas verdes dentro del área metropolitana. Como alguien nacido en Arequipa este análisis posee una motivación personal para entender y poder mejorar el acceso a áreas verdes en la ciudad. La tabla 1 presenta las principales características demográficas de ambas ciudades.</p>
 <div class="table-captioned">
-<p><em>Table 1: Demographic Comparison</em></p>
+<p><em>Tabla 1: Variables Demográficas</em></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 45%">
@@ -240,82 +237,77 @@ window.Quarto = {
 </colgroup>
 <thead>
 <tr class="header">
-<th>Dimension</th>
-<th>Seville Municipality</th>
-<th>Metropolitan Arequipa</th>
+<th>Dimensión</th>
+<th>Municipalidad de Sevilla</th>
+<th>Arequipa Metropolitana</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Area</td>
+<td>Área</td>
 <td>140 km²</td>
 <td>680 km²</td>
 </tr>
 <tr class="even">
-<td>Population (2024)</td>
+<td>Población (2024)</td>
 <td>690,000</td>
 <td>1,000,000</td>
 </tr>
 <tr class="odd">
-<td>GDP per capita, PPP (2024)</td>
+<td>PIB per capita, PPA (2024)</td>
 <td>$57,000</td>
 <td>$17,800</td>
 </tr>
 </tbody>
 </table>
-<p><span style="font-size:0.8em;"> Notes: The GDP per capita (PPP, current international $) figures correspond to Spain for Seville and Peru for Metropolitan Arequipa.<br>
-Source: Author’s analysis, World Bank (2024); Wikipedia. </span></p>
+<p><span style="font-size:0.8em;"> Notes: PIB per cápita, PPA ($ a precios internacionales actuales). Las cifras corresponden a España para Sevilla y Perú para Arequipa.<br>
+Source: Elaboración propia, Banco Mundial (2024); Wikipedia. </span></p>
 </div>
 </section>
-<section id="data-and-methodology" class="level2">
-<h2 class="anchored" data-anchor-id="data-and-methodology">Data and Methodology</h2>
-<p>The analysis uses OpenStreetMap (OSM) polygon data to identify green areas, spatially clipped to official administrative boundaries:</p>
-<ul>
-<li>Seville: municipal boundary from Spain’s National Geographic Institute (CNIG)</li>
-<li>Arequipa: metropolitan districts from Peru’s National Institute of Statistics and Informatics (INEI)</li>
-</ul>
-<p>For both cities, green areas were extracted using consistent OSM tags (parks, gardens, forests, grassland, etc.). However, for Arequipa, the analysis goes one step further by separating green land into two conceptually distinct categories:</p>
+<section id="metodología" class="level2">
+<h2 class="anchored" data-anchor-id="metodología">Metodología</h2>
+<p>Las áreas verdes se identificaron usando data de OpenStreetMap (OSM), restringida a los límites administrativos oficiales de ambas ciudades. Las áreas verdes se obtuvieron usando categorías de OSM data (parques, jardines, bosques, praderas, etcétera). Sin embargo, para Arequipa, el análisis requirió separar las áreas verdes en dos categorías.</p>
 <ol type="1">
-<li>Agricultural green</li>
+<li>Tierras destinadas a la agricultura</li>
 </ol>
 <ul>
-<li>Farmland</li>
-<li>Orchards</li>
-<li>Plant nurseries</li>
-<li>Other cultivated land</li>
+<li>Tierras agrícolas</li>
+<li>Huertos</li>
+<li>Viveros</li>
+<li>Otras tierras de cultivo</li>
 </ul>
 <ol start="2" type="1">
-<li>Urban green (parks &amp; recreation)</li>
+<li>Áreas verdes urbanas (parques &amp; recreación)</li>
 </ol>
 <ul>
-<li>Public parks and gardens</li>
-<li>Sports pitches</li>
-<li>Recreational grounds</li>
-<li>Natural urban vegetation</li>
+<li>Parques públicos y jardines</li>
+<li>Canchas de deportes</li>
+<li>Parques de diversiones</li>
+<li>Vegetación urbana natural</li>
 </ul>
-<p>All geometries were re-projected into appropriate equal-area coordinate systems before computing surface areas and shares.</p>
+<p>Todas las geometrías fueron proyectadas al sistema de coordenadas correspondiente antes de calcular la extensión de áreas y porcentaje de áreas verdes.</p>
 </section>
-<section id="results" class="level2">
-<h2 class="anchored" data-anchor-id="results">Results</h2>
-<section id="seville-green-space-as-urban-infrastructure" class="level3">
-<h3 class="anchored">Seville: Green Space as Urban Infrastructure</h3>
-<p>Seville shows a relatively high and coherent level of public green space coverage at <strong>18%</strong>. Parks, gardens, and recreational areas are well integrated into the urban fabric, with large continuous green spaces such as Parque de María Luisa complemented by smaller neighbourhood parks.</p>
-<p>While green space distribution is not perfectly uniform, the dominant pattern shows that in Seville, most green land within the city boundary is intended for public use. This makes Seville a useful benchmark for what green access can look like in a consolidated European city with decades of planned green infrastructure investment.</p>
+<section id="resultados" class="level2">
+<h2 class="anchored" data-anchor-id="resultados">Resultados</h2>
+<section id="sevilla-espacio-verde-como-infraestructura-urbana" class="level3">
+<h3 class="anchored">Sevilla: Espacio verde como infraestructura urbana</h3>
+<p>Sevilla cuenta con un <strong>18%</strong> de cobertura de áreas verdes en espacio público, un valor relativamente alto. En esta ciudad parques, jardines y espacios recreacionales se encuentran integrados dentro del planeamiento urbano, contando con parques de gran extensión - como el parque de María Luisa - que se complementa con parques más pequeños distribuidos en los distritos.</p>
+<p>A pesar de que las áreas verdes no se encuentran distribuidas equitativamente a través del territorio, el patrón dominante muestra que la mayoría de ella están destinadas al uso público. Lo cual hace de Sevilla un caso valioso para ejemplificar el acceso a áreas verdes en una ciudad europea consolidada con décadas de planeamiento e inversión en infraestructura verde.</p>
 <div class="talk-figure">
 <div class="figure-title">
 
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="gsevilla_v2.png" class="talk-image img-fluid figure-img"></p>
-<figcaption>Source: Map data from OpenStreetMap and CNIG</figcaption>
+<p><img src="gsevilla_v2_es.png" class="talk-image img-fluid figure-img"></p>
+<figcaption>Fuente:Datos de mapa de OpenStreetMap y CNIG</figcaption>
 </figure>
 </div>
-<section id="arequipa-green-but-not-green-for-people" class="level3">
-<h3 class="anchored">Arequipa: Green, but Not Green for People</h3>
-<p>At the scale of Arequipa metropolitan area, the city appears surprisingly green. However, once agricultural land is separated from recreational green space, a very different picture emerges.</p>
+<section id="arequipa-verde-pero-no-para-la-gente" class="level3">
+<h3 class="anchored">Arequipa: Verde, pero no para la gente</h3>
+<p>A escala del área metropolitana de Arequipa, la ciudad presenta una cantidad importante de áreas verdes. Sin embargo, al separar las tierras agrícolas del espacio verde recreativo, el panorama cambia.</p>
 <div class="table-captioned">
-<p><em>Table 2: Composition of green areas in Arequipa metropolitan area</em></p>
+<p><em>Tabla 2: Composición de áreas verdes en Arequipa Metropolitana</em></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 34%">
@@ -325,111 +317,111 @@ Source: Author’s analysis, World Bank (2024); Wikipedia. </span></p>
 </colgroup>
 <thead>
 <tr class="header">
-<th>Type of green area</th>
-<th>Area (km²)</th>
-<th>Share of total green</th>
-<th>Share of city area</th>
+<th>Tipo de área verde</th>
+<th>Área (km²)</th>
+<th>% Áreas verdes</th>
+<th>% Área de la ciudad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Agricultural green</td>
+<td>Tierra agrícola</td>
 <td>59</td>
 <td>85%</td>
 <td>8.7%</td>
 </tr>
 <tr class="even">
-<td>Urban green (parks &amp; recreation)</td>
+<td>Areas urbanas verdes (parques, etc)</td>
 <td>10</td>
 <td>15%</td>
 <td>1.5%</td>
 </tr>
 </tbody>
 </table>
-<p><span style="font-size:0.8em;"> Source: Author’s analysis based on OSM and INEI </span></p>
+<p><span style="font-size:0.8em;"> Source: Elaboracón propia usando OSM e INEI </span></p>
 </div>
-<p>In total, green areas account for about <strong>10%</strong> of Arequipa Metropolitan’s land area. Yet only <strong>1.5%</strong> of the city consists of parks and recreational green spaces.</p>
-<p>The vast majority of green land is agricultural — concentrated along the city’s periphery and river valleys — and is largely inaccessible to residents for daily recreation.</p>
-<p>This distinction is critical. From a satellite or statistical perspective, Arequipa may appear moderately green. From the perspective of a resident seeking shade, leisure, or respite from heat, the city is far less so.</p>
-<p>To make this distinction visible, the analysis produces a single map for Arequipa with three elements:</p>
+<p>En Arequipa Metropolitana las áreas verdes cubren el <strong>10%</strong> de la superficie. Sin embargo, parques y espacios verdes recreacionales representan únicamente el <strong>1.5%</strong>.</p>
+<p>La gran mayoría de tierra verde está destinada a la agricultura – que se concentra a lo largo de la periferia de la ciudad y los valles del río Chili – siendo prácticamente inaccesible para los residentes para actividades recreativas.</p>
+<p>Esta diferencia es notoria. Por un lado, desde una vista satelital o analizando cifras, Arequipa parecería moderadamente verde. Por otro lado, desde la perspectiva de un residente buscando sombra, ocio, un lugar para correr, hacer deporte o resguardo del calor, la ciudad se encuentra bastante limitada.</p>
+<p>Para hacer esta distinción clara, el análisis produce un único mapa para Arequipa con tres elementos.</p>
 <ul>
-<li>Metropolitan boundary (white outline)</li>
-<li>Agricultural green (light green)</li>
-<li>Urban green spaces (dark green)</li>
+<li>Límite metropolitano (color blanco)</li>
+<li>Tierra de cultivo (verde claro)</li>
+<li>Espacios urbanos verdes (verde oscuro)</li>
 </ul>
-<p>We can see that green clusters are not where most people live — and not where they can relax. By contrast, Seville’s map shows green areas distributed as functional urban infrastructure rather than residual land.</p>
+<p>En el mapa se puede apreciar que las áreas verdes se encuentran alejadas de los centros urbanos que concentran a la mayoría de la población. Resaltando la falta de planificación en infraestructura urbana funcional.</p>
 <div class="talk-figure">
 <div class="figure-title">
 
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="garequipa_v2.png" class="talk-image img-fluid figure-img"></p>
-<figcaption>Source: Map data from OpenStreetMap and INEI</figcaption>
+<p><img src="garequipa_v2_es.png" class="talk-image img-fluid figure-img"></p>
+<figcaption>Fuente:Datos de mapa de OpenStreetMap e INEI</figcaption>
 </figure>
 </div>
-<section id="key-insights" class="level2">
-<h2 class="anchored" data-anchor-id="key-insights">Key Insights</h2>
+<section id="hallazgos-principales" class="level2">
+<h2 class="anchored" data-anchor-id="hallazgos-principales">Hallazgos principales</h2>
 <ol type="1">
-<li><strong>Green coverage alone is a misleading metric.</strong> Counting hectares without distinguishing land use overstates access in cities where agriculture dominates.</li>
-<li><strong>Arequipa’s green space is productive, not recreational.</strong> Agricultural land plays an important economic and environmental role — but it does not substitute for parks.</li>
-<li><strong>Urban form matters.</strong> Seville’s green spaces are embedded within neighbourhoods; Arequipa’s are largely peripheral.</li>
-<li><strong>Heat and climate risks amplify the problem.</strong> In hot, high-altitude cities like Arequipa, the absence of accessible green areas has direct implications for health and liveability.</li>
+<li><strong>Cobertura verde de por si puede ser una métrica que induce al error.</strong> Contar terreno sin considerar el uso de la tierra tiende a sobreestimar el acceso a áreas verdes en ciudades donde la agricultura es una actividad predominante.</li>
+<li><strong>El área verde de Arequipa es productiva, no recreacional.</strong> El área agrícola tiene un rol económico y medioambiental de gran valor, pero no cubre el rol de parques y los efectos positivos que estos generan en la población.</li>
+<li><strong>La forma en que se distribuye importa.</strong> El espacio verde en Sevilla se mezcla entre los distritos, mientras que en Arequipa las áreas verdes de recreación son muy escasas y concentradas en pocos distritos.</li>
+<li><strong>El cambio climático amplifica el problema.</strong> En ciudades con un clima cálido, ubicadas a gran altitud como Arequipa, la ausencia de área verde accesible tiene implicaciones directas para la salud y calidad de vida de los ciudadanos.</li>
 </ol>
 </section>
-<section id="policy-implications" class="level2">
-<h2 class="anchored" data-anchor-id="policy-implications">Policy Implications</h2>
-<p>The policy takeaway is not that agricultural land should be replaced — quite the opposite.</p>
-<p><strong>For Arequipa</strong></p>
+<section id="mensaje-de-política" class="level2">
+<h2 class="anchored" data-anchor-id="mensaje-de-política">Mensaje de Política</h2>
+<p>El mensaje de política no es que las tierras agrícolas deben ser reemplazadas, por el contrario.</p>
+<p><strong>Arequipa</strong></p>
 <ul>
-<li>Protect agricultural green areas as environmental and cultural assets</li>
-<li>Explicitly plan for recreational green space, especially in dense districts</li>
-<li>Prioritise pocket parks, shaded corridors, river-adjacent public greenways</li>
+<li>Proteger las tierras agrícolas como activos culturales y medio ambientales</li>
+<li>Planificar la creación de áreas verdes recreativas, especialmente en distritos con alta densidad poblacional</li>
+<li>Priorizar la creación de parques de mediana extensión distribuidos en la ciudad y vías verdes públicas</li>
 </ul>
-<p><strong>For Seville</strong></p>
+<p><strong>Sevilla</strong></p>
 <ul>
-<li>Maintain investment in public green infrastructure</li>
-<li>Focus on connectivity between green spaces</li>
-<li>Promote equitable access across neighbourhoods</li>
-<li>Prioritise heat-resilient urban design as temperature rise</li>
+<li>Continuar con la inversión en áreas verdes de acceso público</li>
+<li>Enfocarse en la conectividad entre áreas verdes</li>
+<li>Promover el acceso igualitario de áreas verdes entre distritos</li>
+<li>Priorizar el diseño urbano resistente al calor a medida que la temperatura aumenta</li>
 </ul>
 </section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>Seville and Arequipa illustrate a fundamental lesson in urban planning: Green space is not just about land cover, it is about access, purpose, and people. Cities can appear green while remaining inhospitable to daily life. Measuring and mapping green areas with attention to how they are used reveals a more honest picture and a clearer path for policy.</p>
-<p>In the end, the relevant question is not “How green is your city?” It is: “How green is your city for the people who live there?”</p>
+<section id="conclusiones" class="level2">
+<h2 class="anchored" data-anchor-id="conclusiones">Conclusiones</h2>
+<p>Arequipa y Sevilla presentan una importante lección en planeamiento urbano. El espacio verde no se refiere únicamente a territorio, se trata de acceso, propósito y gente. Algunas ciudades pueden parecer verdes mientras que estas áreas son inaccesibles para sus residentes. Por ello, calcular áreas verdes con atención al uso que se les da resulta de mayor valor y muestra el camino a seguir en cuanto a la toma de decisiones de política que mejoren la calidad de vida de la población.</p>
+<p>A fin de cuentas, la pregunta que interesa no es ¿Qué tan verde es tu ciudad? Si no, ¿Qué tan verde es tu ciudad para la gente que vive en ella?</p>
 </section>
-<section id="interactive-maps" class="level2">
-<h2 class="anchored" data-anchor-id="interactive-maps">Interactive Maps</h2>
-<section id="interactive-map-for-seville" class="level3">
-<h3 class="anchored" data-anchor-id="interactive-map-for-seville">Interactive map for Seville</h3>
-<p>The interactive map below displays the share of green areas in the Seville municipality. It was not possible to obtain the district level geometries from the Spanish National Geographic Institute.</p>
+<section id="mapas-interactivos" class="level2">
+<h2 class="anchored" data-anchor-id="mapas-interactivos">Mapas Interactivos</h2>
+<section id="mapa-interactivo-para-sevilla" class="level3">
+<h3 class="anchored" data-anchor-id="mapa-interactivo-para-sevilla">Mapa interactivo para Sevilla</h3>
+<p>El mapa interactivo muestra el porcentajes de áreas verdes en la municipalidad de Sevilla. No fue posible obtener las geometrías a nivel de distrito del Instituto Geográfico Nacional de España.</p>
 <iframe src="sevilla_green_share_mun.html" width="100%" height="650px" style="border:none;" title="Interactive map of green area share by municipality in Seville">
 </iframe>
-<p><span style="font-size:0.9em;"> <em>Source: OpenStreetMap, CNIG. Author’s analysis.</em> </span> —</p>
+<p><span style="font-size:0.9em;"> <em>Source: OpenStreetMap, CNIG. Elaboración propia.</em> </span> —</p>
 </section>
-<section id="interactive-map-for-metropolitan-arequipa" class="level3">
-<h3 class="anchored" data-anchor-id="interactive-map-for-metropolitan-arequipa">Interactive map for Metropolitan Arequipa</h3>
-<p>This interactive map shows the proportion of green areas by district in Arequipa metropolitan area, including agriculture and recreational green areas.</p>
+<section id="mapa-interactivo-de-arequipa-metropolitana" class="level3">
+<h3 class="anchored" data-anchor-id="mapa-interactivo-de-arequipa-metropolitana">Mapa Interactivo de Arequipa Metropolitana</h3>
+<p>El mapa interactivo muestra el porcentajes de áreas verdes epor distrito en Arequipa metropolitana, incluyendo áreas destinadas a la agricultura y espacios verdes recreacionales.</p>
 <iframe src="arequipa_green_share_district.html" width="100%" height="650px" style="border:none;" title="Interactive map of green area share by district in Metropolitan Arequipa">
 </iframe>
-<p><span style="font-size:0.9em;"> <em>Source: OpenStreetMap, INEI. Author’s analysis.</em> </span></p>
+<p><span style="font-size:0.9em;"> <em>Source: OpenStreetMap, INEI. Elaboración propia.</em> </span></p>
 </section>
 </section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
+<section id="referencias" class="level2">
+<h2 class="anchored" data-anchor-id="referencias">Referencias</h2>
 <ul>
 <li>Instituto Geográfico Nacional (CNIG). (2025). <em>Límites municipales, provinciales y autonómicos</em>. https://centrodedescargas.cnig.es/CentroDescargas/informacion-geografica-referencia<br>
 </li>
-<li>Instituto Nacional de Estadística e Informática (INEI). (2023). <em>Límites distritales del Perú</em> (District boundaries).<br>
+<li>Instituto Nacional de Estadística e Informática (INEI). (2023). <em>Límites distritales del Perú</em>.<br>
 </li>
-<li>OpenStreetMap contributors. (2025). <em>OpenStreetMap planet dump</em>. Available under the Open Database License (ODbL). https://www.openstreetmap.org/copyright</li>
-<li>World Bank. (2024). World Development Indicators.</li>
+<li>Colaboradores de OpenStreetMap. (2025). <em>OpenStreetMap planet dump</em>. Disponible bajo la Licencia de Base de Datos Abierta (ODbL). https://www.openstreetmap.org/copyright</li>
+<li>Banco Mundial. (2024). Indicadores del Desarrollo Mundial.</li>
 </ul>
-<p><strong>Data licences &amp; notes:</strong><br>
-- OpenStreetMap data are provided under the <em>Open Database License (ODbL)</em>. Users may copy, modify, and publish OSM-derived data provided derivative data are shared under the same licence and attribution is given.</p>
-<p><strong>Code &amp; reproducibility:</strong><br>
-All analysis code, processing scripts and the instructions to reproduce the maps are available on GitHub: <a href="https://github.com/harryaquije/green_cities_part_2">green_cities_part_2 repository</a>.</p>
+<p><strong>Licencia de datos y notas:</strong><br>
+- Los datos de OpenStreetMap se proporcionan bajo <em>Open Database License (ODbL)</em>. Los usuarios pueden copiar, modificar y publicar datos derivados de OSM, siempre que dichos datos se compartan bajo la misma licencia y se otorgue el crédito correspondiente.</p>
+<p><strong>Código y reproducibilidad:</strong><br>
+El código de análisis, los scripts de procesamiento y las instrucciones para reproducir los mapas están disponibles en GitHub: <a href="https://github.com/harryaquije/green_cities_part_2">green_cities_part_2 repository</a>.</p>
 
 
 
