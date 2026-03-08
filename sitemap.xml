@@ -2,39 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://harryaquijeballon.com/talks/its_2025/index.html</loc>
-    <lastmod>2026-01-31T18:52:01.626Z</lastmod>
+    <lastmod>2026-03-08T21:47:51.796Z</lastmod>
   </url>
   <url>
     <loc>https://harryaquijeballon.com/talks/its_2023/index.html</loc>
     <lastmod>2026-01-31T18:52:01.610Z</lastmod>
   </url>
   <url>
-    <loc>https://harryaquijeballon.com/now/index.html</loc>
-    <lastmod>2026-01-31T22:03:45.703Z</lastmod>
+    <loc>https://harryaquijeballon.com/publications/index.html</loc>
+    <lastmod>2026-03-08T23:08:08.840Z</lastmod>
   </url>
   <url>
-    <loc>https://harryaquijeballon.com/blog/index.html</loc>
-    <lastmod>2026-01-31T18:52:01.599Z</lastmod>
-  </url>
-  <url>
-    <loc>https://harryaquijeballon.com/blog/green_2/index.html</loc>
-    <lastmod>2026-02-15T19:23:33.666Z</lastmod>
-  </url>
-  <url>
-    <loc>https://harryaquijeballon.com/blog/decisions_ai/index.html</loc>
-    <lastmod>2026-01-31T18:52:01.353Z</lastmod>
-  </url>
-  <url>
-    <loc>https://harryaquijeballon.com/blog/green/index.html</loc>
-    <lastmod>2026-01-31T18:52:01.361Z</lastmod>
+    <loc>https://harryaquijeballon.com/index.html</loc>
+    <lastmod>2026-03-08T21:49:59.851Z</lastmod>
   </url>
   <url>
     <loc>https://harryaquijeballon.com/blog/green_2_es/index.html</loc>
     <lastmod>2026-02-15T19:42:35.113Z</lastmod>
   </url>
   <url>
-    <loc>https://harryaquijeballon.com/index.html</loc>
-    <lastmod>2026-01-31T18:52:01.600Z</lastmod>
+    <loc>https://harryaquijeballon.com/blog/green/index.html</loc>
+    <lastmod>2026-01-31T18:52:01.361Z</lastmod>
+  </url>
+  <url>
+    <loc>https://harryaquijeballon.com/blog/decisions_ai/index.html</loc>
+    <lastmod>2026-01-31T18:52:01.353Z</lastmod>
+  </url>
+  <url>
+    <loc>https://harryaquijeballon.com/blog/green_2/index.html</loc>
+    <lastmod>2026-02-15T19:23:33.666Z</lastmod>
+  </url>
+  <url>
+    <loc>https://harryaquijeballon.com/blog/index.html</loc>
+    <lastmod>2026-01-31T18:52:01.599Z</lastmod>
+  </url>
+  <url>
+    <loc>https://harryaquijeballon.com/now/index.html</loc>
+    <lastmod>2026-01-31T22:03:45.703Z</lastmod>
   </url>
   <url>
     <loc>https://harryaquijeballon.com/talks/index.html</loc>

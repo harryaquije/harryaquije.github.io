@@ -8,20 +8,7 @@
     "items": []
   },
   {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/green_2_es/index.html",
-      "/blog/green_2/index.html",
-      "/blog/green/index.html",
-      "/blog/decisions_ai/index.html"
-    ]
-  },
-  {
-    "listing": "/blog/green_2/index.html",
-    "items": []
-  },
-  {
-    "listing": "/blog/decisions_ai/index.html",
+    "listing": "/blog/green_2_es/index.html",
     "items": []
   },
   {
@@ -29,8 +16,21 @@
     "items": []
   },
   {
-    "listing": "/blog/green_2_es/index.html",
+    "listing": "/blog/decisions_ai/index.html",
     "items": []
+  },
+  {
+    "listing": "/blog/green_2/index.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/green_2_es/index.html",
+      "/blog/green_2/index.html",
+      "/blog/green/index.html",
+      "/blog/decisions_ai/index.html"
+    ]
   },
   {
     "listing": "/talks/index.html",

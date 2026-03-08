@@ -8,7 +8,7 @@
 
 <meta name="author" content="">
 
-<title> Talks  – Harry Aquije Ballon</title>
+<title> Publications  – Harry Aquije Ballon</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -71,67 +69,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-conference','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="talks.css">
+<link rel="stylesheet" href="publications.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -154,7 +94,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../talks/index.html" aria-current="page"> <i class="bi bi-megaphone" role="img">
+    <a class="nav-link" href="../talks/index.html"> <i class="bi bi-megaphone" role="img">
 </i> 
 <span class="menu-text">Talks</span></a>
   </li>  
@@ -163,7 +103,7 @@ window.Quarto = {
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications/index.html"> 
+    <a class="nav-link active" href="../publications/index.html" aria-current="page"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
@@ -189,108 +129,65 @@ window.Quarto = {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page">
       <h1 class="title"><p class="center-text"><br>
-Talks<br>
+Publications<br>
 </p></h1>
-            <div class="quarto-categories">
-              </div>
     </div>
   </div>
-
-  <div class="quarto-title-meta column-page">
-        
-      </div>
 </header>
 
 
+<p>This page brings together my shorter articles and longer research papers on economic growth, digital transformation, regulation, taxation, and competition in technology-related sectors.</p>
+<section id="articles" class="level2">
+<h2 class="anchored" data-anchor-id="articles">Articles</h2>
+<section id="are-we-seeing-another-dot-com-moment-what-the-ai-investment-cycle-means-for-telecom" class="level3 publication-item">
+<h3 class="anchored" data-anchor-id="are-we-seeing-another-dot-com-moment-what-the-ai-investment-cycle-means-for-telecom">Are we seeing another dot-com moment? What the AI investment cycle means for telecom</h3>
+<p><strong>Authors:</strong> Harry Aquije Ballon, Luis Ortiz Chavez<br>
+<strong>Year:</strong> 2026<br>
+<strong>Type:</strong> Article</p>
+<p>We examine the current AI investment cycle through a financial lens — decomposing returns into earnings, valuation and dividends, and assessing leverage across the S&amp;P 500 and the technology sector. Unlike the dot-com era, today’s surge is underpinned by real earnings growth, creating a structural opportunity for telecom operators to capture new demand and drive long-term value.</p>
+<p><a href="https://www.gsmaintelligence.com/blogs/are-we-seeing-another-dot-com-moment-what-the-ai-investment-cycle-means-for-telecom" target="_blank">Read article</a></p>
+</section>
+</section>
+<section id="research-papers" class="level2">
+<h2 class="anchored" data-anchor-id="research-papers">Research papers</h2>
+<section id="towards-better-mobile-quality-of-service-assessing-the-role-of-regulation" class="level3 publication-item">
+<h3 class="anchored" data-anchor-id="towards-better-mobile-quality-of-service-assessing-the-role-of-regulation">Towards better mobile quality of service: Assessing the role of regulation</h3>
+<p><strong>Authors:</strong> Harry Aquije Ballon, Pau Castells, Kalvin Bahia, Juan Jung<br>
+<strong>Year:</strong> 2025<br>
+<strong>Type:</strong> Working paper</p>
+<p>We find that the introduction of QoS regulations has not resulted in any measurable improvements in the performance of wireless telecommunications services. Instead, the results suggest that policymakers aiming to maximise network performance should focus on other key areas such as spectrum availability, the adoption of newer technological standards, and increased smartphone penetration.</p>
+<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5680021" target="_blank">Read paper</a></p>
+</section>
+<section id="from-physical-to-digital-what-does-iot-mean-for-economic-growth" class="level3 publication-item">
+<h3 class="anchored" data-anchor-id="from-physical-to-digital-what-does-iot-mean-for-economic-growth">From Physical to Digital: What does IoT mean for economic growth?</h3>
+<p><strong>Authors:</strong> Harry Aquije Ballon, Kalvin Bahia, Pau Castells<br>
+<strong>Year:</strong> 2024<br>
+<strong>Type:</strong> Working paper</p>
+<p>Using a global panel of countries from 2010 to 2022, we find that a 10-percentage-point increase in IoT connections per inhabitant increases GDP by 0.7% in LMICs and 0.5% in HICs. This impact is primarily driven by enterprise IoT, accounting for around 80% of the total effect, while consumer IoT contributes the remaining 20%.</p>
+<p><a href="https://www.econstor.eu/handle/10419/302494" target="_blank">Read paper</a></p>
+</section>
+<section id="relationship-between-industrial-anchovy-fishing-and-artisanal-fishing-evidence-from-the-peruvian-case" class="level3 publication-item">
+<h3 class="anchored" data-anchor-id="relationship-between-industrial-anchovy-fishing-and-artisanal-fishing-evidence-from-the-peruvian-case">Relationship between industrial anchovy fishing and artisanal fishing: Evidence from the Peruvian case</h3>
+<p><strong>Authors:</strong> Harry Aquije Ballon, Luis Ortiz Chavez<br>
+<strong>Year:</strong> 2017<br>
+<strong>Type:</strong> Dissertation</p>
+<p>We explore the relationship between industrial anchoveta fishing and artisanal marine landings in Peru. The results show that a 10% increase in industrial catch leads to a 1.1% decrease in artisanal landings at ports located within 50 km of an industrial port. This effect appears to be driven by the biological dependency between species, as fish targeted by artisanal fleets feed primarily on anchoveta.</p>
+<p><a href="https://pirhua.udep.edu.pe/item/e6f7bfbf-a296-409d-9699-0174b1e61852" target="_blank">Read dissertation</a></p>
+</section>
+<section id="transfer-pricing-examining-the-gross-margins" class="level3 publication-item">
+<h3 class="anchored" data-anchor-id="transfer-pricing-examining-the-gross-margins">Transfer pricing: Examining the gross margins</h3>
+<p><strong>Authors:</strong> Harry Aquije Ballon, Andres Remezzano Bongiovani<br>
+<strong>Year:</strong> 2014<br>
+<strong>Type:</strong> Research paper<br>
+<strong>Organisation:</strong> Inter-American Center of Tax Administrations (CIAT)</p>
+<p>We examine the application of transfer pricing methods based on comparisons of gross profit margins. The results show that in the wholesale and retail distribution sectors there is a positive and statistically significant relationship between general costs and gross margins. This suggests that methods based on gross margins may not be appropriate for these sectors.</p>
+<p><a href="https://www.ciat.org/Biblioteca/Revista/Revista_36/Ingles/2014_Aquije_Remezzano_ing.pdf" target="_blank">Read paper</a></p>
+</section>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="UW9TJTJDUmVndWxhdGlvbiUyQ1RlbGVjb21tdW5pY2F0aW9ucw==" data-listing-date-sort="1751151600000" data-listing-file-modified-sort="1773006471796" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="403">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talks/its_2025/index.html" class="no-external">Towards better mobile quality of service: Assessing the role of regulation</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UW9T'); return false;">QoS</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVndWxhdGlvbg=='); return false;">Regulation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVsZWNvbW11bmljYXRpb25z'); return false;">Telecommunications</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../talks/its_2025/index.html" class="no-external">
-<div class="listing-date">
-2025-06-29
-</div>
-<div class="metadata-value listing-conference">
-ITS 33rd European Conference 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="ZWNvbm9taWMlMjBncm93dGglMkNJb1QlMkNkaWdpdGFsJTIwdGVjaG5vbG9naWVz" data-listing-date-sort="1719097200000" data-listing-file-modified-sort="1769885521611" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="455">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talks/its_2024/index.html" class="no-external">From Physical to Digital Things: What does IoT mean for economic growth?</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZWNvbm9taWMlMjBncm93dGg='); return false;">economic growth</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SW9U'); return false;">IoT</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGlnaXRhbCUyMHRlY2hub2xvZ2llcw=='); return false;">digital technologies</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../talks/its_2024/index.html" class="no-external">
-<div class="listing-date">
-2024-06-23
-</div>
-<div class="metadata-value listing-conference">
-The 24th Biennial Conference of the International Telecommunications Society
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="ZGlnaXRhbCUyMGZpbmFuY2lhbCUyMGluY2x1c2lvbiUyQ21vYmlsZSUyMG1vbmV5JTJDZWNvbm9taWMlMjBncm93dGglMkNkZXZlbG9wbWVudCUyMGVjb25vbWljcw==" data-listing-date-sort="1700956800000" data-listing-file-modified-sort="1769885521610" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="434">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../talks/its_2023/index.html" class="no-external">Beyond financial inclusion: Does mobile money drive GDP growth?</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGlnaXRhbCUyMGZpbmFuY2lhbCUyMGluY2x1c2lvbg=='); return false;">digital financial inclusion</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bW9iaWxlJTIwbW9uZXk='); return false;">mobile money</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZWNvbm9taWMlMjBncm93dGg='); return false;">economic growth</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGV2ZWxvcG1lbnQlMjBlY29ub21pY3M='); return false;">development economics</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../talks/its_2023/index.html" class="no-external">
-<div class="listing-date">
-2023-11-26
-</div>
-<div class="metadata-value listing-conference">
-The 16th International Telecommunications Society Asia-Pacific Regional Conference
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
