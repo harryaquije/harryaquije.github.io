@@ -1,1 +1,8 @@
-.quarto/
+# Quarto generated files
+/.quarto/
+_site/
+**/*.quarto_ipynb
+
+# R/RStudio state
+.Rproj.user/
+.Rhistory
