@@ -7,8 +7,8 @@ categories: ["QoS", "Regulation", "Telecommunications"]
 paper: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5680021"
 author:
   - Harry Aquije Ballon
-  - Kalvin Bahia
   - Pau Castells
+  - Kalvin Bahia
   - Juan Jung
 ---
 

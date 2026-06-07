@@ -1,8 +1,11 @@
 project:
   type: website
+  resources:
+    - CNAME
 
 website:
   title: "Harry Aquije Ballon"
+  site-url: https://harryaquijeballon.com
   navbar:
     title: Harry Aquije Ballon
     right:
@@ -11,12 +14,14 @@ website:
         icon: megaphone
       - href: blog/index.qmd
         text: Blog
+      - href: publications/index.qmd
+        text: Publications
       - href: now/index.qmd
         text: Now
 
 publish:
   gh-pages:
-    repo: harryaquije/harryaquijeballon.github.io
+    repo: harryaquije/harryaquije.github.io
     branch: gh-pages
 
 format:

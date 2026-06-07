@@ -78,7 +78,7 @@ While green space distribution is not perfectly uniform, the dominant pattern sh
 <div class="talk-figure">
   <div class="figure-title"></div>
   
-  ![Source: Map data from OpenStreetMap, ONS, INEI](gsevilla_v2.png){.talk-image}
+  ![Source: Map data from OpenStreetMap and CNIG](gsevilla_v2.png){.talk-image}
 
 ### Arequipa: Green, but Not Green for People
 
@@ -114,7 +114,7 @@ We can see that green clusters are not where most people live — and not where 
 <div class="talk-figure">
   <div class="figure-title"></div>
   
-  ![Source: Map data from OpenStreetMap, ONS, INEI](garequipa_v2.png){.talk-image}
+  ![Source: Map data from OpenStreetMap and INEI](garequipa_v2.png){.talk-image}
 
 ## Key Insights
 

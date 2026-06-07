@@ -1,0 +1,71 @@
+---
+title: <p class="center-text">Publications</p>
+author: ""
+comments: false
+page-layout: full
+format:
+  html:
+    css: publications.css
+---
+
+This page brings together my shorter articles and longer research papers on economic growth, digital transformation, regulation, taxation, and competition in technology-related sectors.
+
+## Articles
+
+::: {.publication-item}
+### Are we seeing another dot-com moment? What the AI investment cycle means for telecom
+**Authors:** Harry Aquije Ballon, Luis Ortiz Chavez  
+**Year:** 2026  
+**Type:** Article  
+
+We examine the current AI investment cycle through a financial lens — decomposing returns into earnings, valuation and dividends, and assessing leverage across the S&P 500 and the technology sector. Unlike the dot-com era, today’s surge is underpinned by real earnings growth, creating a structural opportunity for telecom operators to capture new demand and drive long-term value.
+
+[Read article](https://www.gsmaintelligence.com/blogs/are-we-seeing-another-dot-com-moment-what-the-ai-investment-cycle-means-for-telecom){target="_blank"}
+:::
+
+## Research papers
+
+::: {.publication-item}
+### Towards better mobile quality of service: Assessing the role of regulation
+**Authors:** Harry Aquije Ballon, Pau Castells, Kalvin Bahia, Juan Jung  
+**Year:** 2025  
+**Type:** Working paper  
+
+We find that the introduction of QoS regulations has not resulted in any measurable improvements in the performance of wireless telecommunications services. Instead, the results suggest that policymakers aiming to maximise network performance should focus on other key areas such as spectrum availability, the adoption of newer technological standards, and increased smartphone penetration.
+
+[Read paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5680021){target="_blank"}
+:::
+
+::: {.publication-item}
+### From Physical to Digital: What does IoT mean for economic growth?
+**Authors:** Harry Aquije Ballon, Kalvin Bahia, Pau Castells  
+**Year:** 2024  
+**Type:** Working paper  
+
+Using a global panel of countries from 2010 to 2022, we find that a 10-percentage-point increase in IoT connections per inhabitant increases GDP by 0.7% in LMICs and 0.5% in HICs. This impact is primarily driven by enterprise IoT, accounting for around 80% of the total effect, while consumer IoT contributes the remaining 20%.
+
+[Read paper](https://www.econstor.eu/handle/10419/302494){target="_blank"}
+:::
+
+::: {.publication-item}
+### Relationship between industrial anchovy fishing and artisanal fishing: Evidence from the Peruvian case
+**Authors:** Harry Aquije Ballon, Luis Ortiz Chavez  
+**Year:** 2017  
+**Type:** Dissertation  
+
+We explore the relationship between industrial anchoveta fishing and artisanal marine landings in Peru. The results show that a 10% increase in industrial catch leads to a 1.1% decrease in artisanal landings at ports located within 50 km of an industrial port. This effect appears to be driven by the biological dependency between species, as fish targeted by artisanal fleets feed primarily on anchoveta.
+
+[Read dissertation](https://pirhua.udep.edu.pe/item/e6f7bfbf-a296-409d-9699-0174b1e61852){target="_blank"}
+:::
+
+::: {.publication-item}
+### Transfer pricing: Examining the gross margins
+**Authors:** Harry Aquije Ballon, Andres Remezzano Bongiovani  
+**Year:** 2014  
+**Type:** Research paper  
+**Organisation:** Inter-American Center of Tax Administrations (CIAT)  
+
+We examine the application of transfer pricing methods based on comparisons of gross profit margins. The results show that in the wholesale and retail distribution sectors there is a positive and statistically significant relationship between general costs and gross margins. This suggests that methods based on gross margins may not be appropriate for these sectors. 
+
+[Read paper](https://www.ciat.org/Biblioteca/Revista/Revista_36/Ingles/2014_Aquije_Remezzano_ing.pdf){target="_blank"}
+:::
