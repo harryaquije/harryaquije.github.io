@@ -6,11 +6,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-$theme-desserty: rgb(250, 210, 130);
-$theme-earth: rgb(60, 47, 38);
-$theme-black: black;
-$theme-cacktus: rgb(133, 94, 66);
-$theme-terracota: rgb(178, 78, 52);
+$theme-bg: #f7faf6;
+$theme-text: #1f2d29;
+$theme-heading: #2f5d50;
+$theme-link: #1f6f5b;
+$theme-accent: #7a9b76;
+$theme-border: #d8e3d5;
 
 
 /* Colors */
@@ -18,9 +19,9 @@ $theme-terracota: rgb(178, 78, 52);
 $body-color: rgb(55, 58, 60);
 $link-color: rgb(39, 128, 227); */
 
-$body-bg: $theme-desserty;
-$body-color: $theme-earth;
-$link-color: $theme-black;
+$body-bg: $theme-bg;
+$body-color: $theme-text;
+$link-color: $theme-link;
 
 /* Fonts */
 /*$font-family-sans-serif: "Source Sans Pro", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
@@ -31,20 +32,20 @@ $font-size-root: 18px;
 
 h1, h2, h3, h4, h5, h6{
   text-transform: uppercase;
-  color: $theme-cacktus;
+  color: $theme-heading;
 }
 
 .navbar * {
-  color: $theme-cacktus;
+  color: $theme-heading;
 }
 
 span.navbar-title {
-  color: $theme-cacktus;
-  transition-duration: 0.5s;
+  color: $theme-heading;
+  transition-duration: 0.25s;
   
   &:hover {
-    color: $theme-terracota;
-    transition-duration: 0.5s;
+    color: $theme-accent;
+    transition-duration: 0.25s;
   }
 }
 

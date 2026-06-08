@@ -1,7 +1,7 @@
 ---
 title: "Harry Aquije Ballon"
 subtitle: "Economist"
-image: IMG_3272.jpg
+image: IMG_4455.jpg
 toc: false
 about: # https://quarto.org/docs/websites/website-about.html
   template: jolla

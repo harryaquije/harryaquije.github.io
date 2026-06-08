@@ -6,19 +6,21 @@ format:
     css: ../talks/talks.css
 ---
 
-_As of January 31, 2026_
+_As of June 8, 2026_
 
 I'm spending my time mostly on:
 
-- 👨‍💼 Working full time as an economist at [GSMA Intelligence](https://www.gsmaintelligence.com/meet-the-team/harry-aquije-ballon), where I study how digital technologies are transforming the society, and its implications on policy, competition and regulation.
+- 👨‍💼 Working full time as an economist at [GSMA Intelligence](https://www.gsmaintelligence.com/meet-the-team/harry-aquije-ballon), where I study the economic impact of digital technologies and their implications for growth, competition, regulation and public policy.
 - 🌍 Living in London.  
-- 🏃Training for Milano marathon in April 2026.  
-- 🕺 Dancing salsa every week.  
-- ✍️ Creating new content for this site around economics, geospatial analysis, machine learning, and gen AI.  
+- 🏃Running to recharge, refresh and stay fit.  
+- 🕺 Making time for salsa whenever I can.
+- ✍️ Expanding this website with new articles and research on economic growth, digital technologies, regulation, competition, and AI.
+- 🤖 Experimenting with AI agents and developer tools to improve research, coding workflows, and content creation.
 - 📚 Current reading list:
-  - 📖 _War and Peace_
+  - 🚀 _Beyond Earth: Our Path to a New Home in the Planets_
   - 🤖 _Generative AI with LangChain_
-  - 🚀 _Space Race 2.0_
+  - 📈 _The AI Economy_
+
   
   
   
