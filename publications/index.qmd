@@ -8,22 +8,27 @@ format:
     css: publications.css
 ---
 
-This page brings together my shorter articles and longer research papers on economic growth, digital transformation, regulation, taxation, and competition in technology-related sectors.
+This page brings together my articles and research on economic growth, digital transformation, regulation, taxation, and competition in technology-related sectors.
 
 ## Articles
+
+::: {.publication-item}
+### The space economy's first big telecoms test is NTN
+**Authors:** Harry Aquije Ballon  
+**Year:** 2026  
+
+[Read article](https://www.gsmaintelligence.com/blogs/the-space-economys-first-big-telecoms-test-is-ntn){target="_blank"}
+:::
 
 ::: {.publication-item}
 ### Are we seeing another dot-com moment? What the AI investment cycle means for telecom
 **Authors:** Harry Aquije Ballon, Luis Ortiz Chavez  
 **Year:** 2026  
-**Type:** Article  
-
-We examine the current AI investment cycle through a financial lens — decomposing returns into earnings, valuation and dividends, and assessing leverage across the S&P 500 and the technology sector. Unlike the dot-com era, today’s surge is underpinned by real earnings growth, creating a structural opportunity for telecom operators to capture new demand and drive long-term value.
 
 [Read article](https://www.gsmaintelligence.com/blogs/are-we-seeing-another-dot-com-moment-what-the-ai-investment-cycle-means-for-telecom){target="_blank"}
 :::
 
-## Research papers
+## Research
 
 ::: {.publication-item}
 ### Towards better mobile quality of service: Assessing the role of regulation
@@ -65,7 +70,7 @@ We explore the relationship between industrial anchoveta fishing and artisanal m
 **Type:** Research paper  
 **Organisation:** Inter-American Center of Tax Administrations (CIAT)  
 
-We examine the application of transfer pricing methods based on comparisons of gross profit margins. The results show that in the wholesale and retail distribution sectors there is a positive and statistically significant relationship between general costs and gross margins. This suggests that methods based on gross margins may not be appropriate for these sectors. 
+We examine the application of transfer pricing methods based on comparisons of gross profit margins. The results show that in the wholesale and retail distribution sectors there is a positive and statistically significant relationship between general costs and gross margins. This suggests that methods based on gross margins may not be appropriate for these sectors.
 
 [Read paper](https://www.ciat.org/Biblioteca/Revista/Revista_36/Ingles/2014_Aquije_Remezzano_ing.pdf){target="_blank"}
 :::
