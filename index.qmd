@@ -16,4 +16,4 @@ about: # https://quarto.org/docs/websites/website-about.html
       href: https://linkedin.com/in/harryaquije/
 ---
 
-I am interested in how digital technologies can contribute to a better world. By using - economic theory and empirical methods - I provide evidence to inform policy. I have experienced on development economics and digital technologies with focus on productivity, innovation, and inclusive growth. On my free time I like running and dancing salsa.
+I am an economist researching how digital technologies, including AI, shape productivity, innovation, competition and inclusive growth. I combine economic theory with empirical methods to produce evidence that informs policy and business decisions. My work focuses on turning rigorous economic analysis into practical insights about technological change. Outside work, I enjoy running and dancing salsa.

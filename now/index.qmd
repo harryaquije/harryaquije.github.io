@@ -16,12 +16,11 @@ I'm spending my time mostly on:
 - 🕺 Making time for salsa whenever I can.
 - ✍️ Expanding this website with new articles and research on economic growth, digital technologies, regulation, competition, and AI.
 - 🤖 Experimenting with AI agents and developer tools to improve research, coding workflows, and content creation.
+- 🎓 **AI training:**
+  - _Generative AI for Leaders: From Insight to Implementation_, London Business School (June 2026)
+  - _Introduction to Conversational and Generative AI_, City, University of London (June 2024)
+  - _Introduction to Machine Learning with Python_, Goldsmiths, University of London (June 2022)
 - 📚 Current reading list:
   - 🚀 _Beyond Earth: Our Path to a New Home in the Planets_
   - 🤖 _Generative AI with LangChain_
   - 📈 _The AI Economy_
-
-  
-  
-  
-  
