@@ -22,7 +22,7 @@ My goal is to help social scientists and policymakers navigate research, evaluat
 
 ::: {.ai-actions}
 [View AI Radar on GitHub](https://github.com/harryaquijeballon/ai_radar){target="_blank" rel="noopener" .ai-action .primary}
-[Read the daily reports](https://github.com/harryaquijeballon/ai_radar/tree/main/reports){target="_blank" rel="noopener" .ai-action}
+[Read a sample report](https://github.com/harryaquijeballon/ai_radar/blob/main/reports/social_science/daily/2026-08-11.md){target="_blank" rel="noopener" .ai-action}
 :::
 :::
 
@@ -34,6 +34,8 @@ My goal is to help social scientists and policymakers navigate research, evaluat
 The AI Radar is a self-running research system that tracks AI developments that matter to social science and AI implementation.
 
 Every morning, two Claude Code skills scan public sources and save the most useful findings as structured library entries. The daily reports work like a newsletter tailored to specific research preferences, and the library keeps the selected work as a growing source of knowledge.
+
+Running daily since July 2026, with 130+ structured entries and 30+ daily reports in the public repository.
 :::
 
 ::: {.proof-grid}
@@ -59,6 +61,7 @@ Reports, library entries, rejections, source proposals, runbooks, and incidents 
 ## How it works
 
 ```{mermaid}
+%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fbf7", "primaryTextColor": "#1f2d29", "primaryBorderColor": "#7a9b76", "lineColor": "#7a9b76", "tertiaryColor": "#ffffff", "fontFamily": "Poppins, sans-serif"}}}%%
 flowchart LR
   sources["Public web sources"] --> skills["Two Claude Code skills"]
   skills --> engine["Shared radar engine"]
@@ -67,6 +70,10 @@ flowchart LR
   validators --> library["Structured library"]
   validators --> queues["Human review queues"]
   library --> reports["Daily reports"]
+  classDef stage fill:#f8fbf7,stroke:#7a9b76,color:#1f2d29;
+  classDef output fill:#ffffff,stroke:#2f5d50,color:#1f2d29;
+  class sources,skills,engine,review,validators stage;
+  class library,queues,reports output;
 ```
 
 AI scans the sources and makes the first review. Before anything enters the library, the code checks that it follows the rules. If a source is unclear, the system sends it to human review.
