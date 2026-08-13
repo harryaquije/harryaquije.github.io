@@ -162,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>My goal is to help social scientists and policymakers navigate research, evaluate evidence, and make better decisions.</p>
 <div class="ai-actions">
-<p><a href="https://github.com/harryaquijeballon/ai_radar" class="ai-action primary" target="_blank" rel="noopener">View AI Radar on GitHub</a> <a href="https://github.com/harryaquijeballon/ai_radar/tree/main/reports" class="ai-action" target="_blank" rel="noopener">Read the daily reports</a></p>
+<p><a href="https://github.com/harryaquijeballon/ai_radar" class="ai-action primary" target="_blank" rel="noopener">View AI Radar on GitHub</a> <a href="https://github.com/harryaquijeballon/ai_radar/blob/main/reports/social_science/daily/2026-08-11.md" class="ai-action" target="_blank" rel="noopener">Read a sample report</a></p>
 </div>
 </div>
 <section id="projects" class="level2">
@@ -171,6 +171,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="ai-radar">AI Radar</h3>
 <p>The AI Radar is a self-running research system that tracks AI developments that matter to social science and AI implementation.</p>
 <p>Every morning, two Claude Code skills scan public sources and save the most useful findings as structured library entries. The daily reports work like a newsletter tailored to specific research preferences, and the library keeps the selected work as a growing source of knowledge.</p>
+<p>Running daily since July 2026, with 130+ structured entries and 30+ daily reports in the public repository.</p>
 </section>
 <div class="proof-grid">
 <div class="proof-item">
@@ -194,7 +195,8 @@ ul.task-list li input[type="checkbox"] {
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart LR
+<pre class="mermaid mermaid-js">%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#f8fbf7", "primaryTextColor": "#1f2d29", "primaryBorderColor": "#7a9b76", "lineColor": "#7a9b76", "tertiaryColor": "#ffffff", "fontFamily": "Poppins, sans-serif"}}}%%
+flowchart LR
   sources["Public web sources"] --&gt; skills["Two Claude Code skills"]
   skills --&gt; engine["Shared radar engine"]
   engine --&gt; review["Source review and scoring"]
@@ -202,6 +204,10 @@ ul.task-list li input[type="checkbox"] {
   validators --&gt; library["Structured library"]
   validators --&gt; queues["Human review queues"]
   library --&gt; reports["Daily reports"]
+  classDef stage fill:#f8fbf7,stroke:#7a9b76,color:#1f2d29;
+  classDef output fill:#ffffff,stroke:#2f5d50,color:#1f2d29;
+  class sources,skills,engine,review,validators stage;
+  class library,queues,reports output;
 </pre>
 </div>
 <p></p></figure><p></p>
