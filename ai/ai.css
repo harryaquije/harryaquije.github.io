@@ -1,0 +1,152 @@
+.ai-page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.25rem 4rem;
+}
+
+.ai-hero {
+  padding: 3rem 0 2.25rem;
+  border-bottom: 1px solid #d8e3d5;
+}
+
+.ai-kicker {
+  margin-bottom: 0.75rem;
+  color: #47665b;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.ai-statement {
+  max-width: 900px;
+  margin: 0 0 1rem;
+  color: #1f2d29;
+  font-size: clamp(2rem, 3.4vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.08;
+}
+
+.ai-hero p {
+  max-width: 860px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.ai-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.ai-action {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid #2f5d50;
+  border-radius: 6px;
+  color: #2f5d50;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.ai-action.primary {
+  background: #2f5d50;
+  color: #fff;
+}
+
+.ai-action:hover,
+.ai-inline-link:hover,
+.skill-card a:hover {
+  background: #1f2d29;
+  border-color: #1f2d29;
+  color: #fff;
+  text-decoration: none;
+}
+
+.project-panel {
+  max-width: 900px;
+}
+
+.proof-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.proof-item,
+.skill-card {
+  min-height: 100%;
+  padding: 1rem;
+  border: 1px solid #d8e3d5;
+  border-radius: 8px;
+  background: #f8fbf7;
+}
+
+.proof-item p:last-child,
+.skill-card p:last-child {
+  margin-bottom: 0;
+}
+
+.skill-card h3,
+.project-panel h3 {
+  color: #1f2d29;
+  text-transform: none;
+}
+
+.ai-link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.skill-card a,
+.ai-inline-link {
+  display: inline-flex;
+  margin-top: 0.5rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid #2f5d50;
+  border-radius: 6px;
+  color: #2f5d50;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.mermaid {
+  margin: 1.5rem 0 1.75rem;
+  padding: 1rem;
+  border: 1px solid #d8e3d5;
+  border-radius: 8px;
+  background: #fff;
+}
+
+@media (max-width: 760px) {
+  .ai-page {
+    padding: 0 1rem 3rem;
+  }
+
+  .ai-hero {
+    padding-top: 2rem;
+  }
+
+  .proof-grid,
+  .skill-list {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-action {
+    width: 100%;
+    justify-content: center;
+  }
+}
