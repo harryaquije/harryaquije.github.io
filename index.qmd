@@ -13,7 +13,7 @@ about: # https://quarto.org/docs/websites/website-about.html
       href: https://github.com/harryaquijeballon
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/harryaquije/
+      href: https://www.linkedin.com/in/harryaquijeballon/
 ---
 
 I am an economist researching how digital technologies, including AI, shape productivity, innovation, competition and inclusive growth. I combine economic theory with empirical methods to produce evidence that informs policy and business decisions. My work focuses on turning rigorous economic analysis into practical insights about technological change. Outside work, I enjoy running and dancing salsa.
