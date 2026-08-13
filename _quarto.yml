@@ -9,6 +9,9 @@ website:
   navbar:
     title: Harry Aquije Ballon
     right:
+      - href: ai/index.qmd
+        text: AI Work
+        icon: cpu
       - href: talks/index.qmd
         text: Talks
         icon: megaphone

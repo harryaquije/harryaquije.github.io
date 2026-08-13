@@ -1,0 +1,98 @@
+---
+title: "Harry Does AI"
+subtitle: "AI systems for social science and policy"
+page-layout: full
+format:
+  html:
+    css: ai.css
+---
+
+::: {.ai-page}
+
+::: {.ai-hero}
+::: {.ai-kicker}
+Public AI workbench
+:::
+
+::: {.ai-statement}
+I am an economist building AI systems for social science and policy.
+:::
+
+My goal is to help social scientists and policymakers navigate research, evaluate evidence, and make better decisions.
+
+::: {.ai-actions}
+[View AI Radar on GitHub](https://github.com/harryaquijeballon/ai_radar){target="_blank" rel="noopener" .ai-action .primary}
+[Read the daily reports](https://github.com/harryaquijeballon/ai_radar/tree/main/reports){target="_blank" rel="noopener" .ai-action}
+:::
+:::
+
+## Projects
+
+::: {.project-panel}
+### AI Radar
+
+The AI Radar is a self-running research system that tracks AI developments that matter to social science and AI implementation.
+
+Every morning, two Claude Code skills scan public sources and save the most useful findings as structured library entries. The daily reports work like a newsletter tailored to specific research preferences, and the library keeps the selected work as a growing source of knowledge.
+:::
+
+::: {.proof-grid}
+::: {.proof-item}
+**Judgment**
+
+Domain profiles define what counts as useful for social science and AI engineering.
+:::
+
+::: {.proof-item}
+**Guardrails**
+
+Python validators protect reports, paths, queues, metadata, and append-only history.
+:::
+
+::: {.proof-item}
+**Archive**
+
+Reports, library entries, rejections, source proposals, runbooks, and incidents are public.
+:::
+:::
+
+## How it works
+
+```{mermaid}
+flowchart LR
+  sources["Public web sources"] --> skills["Two Claude Code skills"]
+  skills --> engine["Shared radar engine"]
+  engine --> review["Source review and scoring"]
+  review --> validators["Deterministic validators"]
+  validators --> library["Structured library"]
+  validators --> queues["Human review queues"]
+  library --> reports["Daily reports"]
+```
+
+AI scans the sources and makes the first review. Before anything enters the library, the code checks that it follows the rules. If a source is unclear, the system sends it to human review.
+
+::: {.ai-link-row}
+[Browse the library](https://github.com/harryaquijeballon/ai_radar/tree/main/library){target="_blank" rel="noopener" .ai-inline-link}
+:::
+
+## Public skills
+
+::: {.skill-list}
+::: {.skill-card}
+### Social Science Radar
+
+For AI developments that matter to economists, social scientists, and policy researchers.
+
+[Open skill](https://github.com/harryaquijeballon/ai_radar/tree/main/.claude/skills/social-science-radar){target="_blank" rel="noopener"}
+:::
+
+::: {.skill-card}
+### AI Engineering Radar
+
+For methods and practices used to build reliable AI systems, research agents, and policy products.
+
+[Open skill](https://github.com/harryaquijeballon/ai_radar/tree/main/.claude/skills/ai-engineering-radar){target="_blank" rel="noopener"}
+:::
+:::
+
+:::
