@@ -1,27 +1,16 @@
 [
   {
-    "listing": "/talks/its_2025/index.html",
+    "listing": "/talks/its_2024/index.html",
     "items": []
   },
   {
-    "listing": "/talks/its_2023/index.html",
-    "items": []
-  },
-  {
-    "listing": "/blog/green_2_es/index.html",
-    "items": []
-  },
-  {
-    "listing": "/blog/green/index.html",
-    "items": []
-  },
-  {
-    "listing": "/blog/decisions_ai/index.html",
-    "items": []
-  },
-  {
-    "listing": "/blog/green_2/index.html",
-    "items": []
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/techritory_2026/index.html",
+      "/talks/its_2025/index.html",
+      "/talks/its_2024/index.html",
+      "/talks/its_2023/index.html"
+    ]
   },
   {
     "listing": "/blog/index.html",
@@ -33,15 +22,27 @@
     ]
   },
   {
-    "listing": "/talks/index.html",
-    "items": [
-      "/talks/its_2025/index.html",
-      "/talks/its_2024/index.html",
-      "/talks/its_2023/index.html"
-    ]
+    "listing": "/blog/green_2/index.html",
+    "items": []
   },
   {
-    "listing": "/talks/its_2024/index.html",
+    "listing": "/blog/decisions_ai/index.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/green/index.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/green_2_es/index.html",
+    "items": []
+  },
+  {
+    "listing": "/talks/its_2023/index.html",
+    "items": []
+  },
+  {
+    "listing": "/talks/its_2025/index.html",
     "items": []
   }
 ]

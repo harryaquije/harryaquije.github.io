@@ -1,0 +1,104 @@
+.techritory-page main {
+  letter-spacing: 0;
+}
+
+.techritory-page #title-block-header {
+  margin-bottom: 1.5rem;
+}
+
+.techritory-page h2 {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  line-height: 1.35;
+  text-transform: none;
+  overflow-wrap: break-word;
+}
+
+.techritory-page .event-intro {
+  margin-bottom: 1.75rem;
+}
+
+.techritory-page .session-details {
+  margin: 0.5rem 0 1.25rem;
+  color: #52645d;
+  font-size: 0.85rem;
+}
+
+.techritory-page figure {
+  margin: 1.75rem 0;
+}
+
+.techritory-page figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.techritory-page figcaption {
+  margin-top: 0.6rem;
+  color: #52645d;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.techritory-page .event-portrait {
+  width: min(100%, 360px);
+  margin: 1.75rem auto 2.5rem;
+}
+
+.techritory-page .presentation-photo {
+  width: min(100%, 420px);
+}
+
+.techritory-page .panel-photos {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+  margin: 1.75rem 0;
+}
+
+.techritory-page .panel-photos figure,
+.techritory-page .panel-photos .quarto-figure {
+  margin: 0;
+  min-width: 0;
+}
+
+.techritory-page .recording-link {
+  margin: 1.5rem 0 2.5rem;
+}
+
+.techritory-page .recording-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.techritory-page .recording-link a:hover {
+  background-color: #e9f0e7;
+}
+
+.techritory-page .recording-link a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.techritory-page .event-footer {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #d8e3d5;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 575px) {
+  .techritory-page h2 {
+    font-size: 1.3rem;
+  }
+
+}
